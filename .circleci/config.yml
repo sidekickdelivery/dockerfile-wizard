@@ -19,7 +19,7 @@ image_config: &image_config
 
   NODE_VERSION_NUM: 10.15.
 
-  PYTHON_VERSION_NUM: false
+  # PYTHON_VERSION_NUM: false
 
   JAVA: false
 
