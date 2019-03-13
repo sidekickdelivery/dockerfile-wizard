@@ -17,7 +17,7 @@ image_config: &image_config
 
   RUBY_VERSION_NUM: 2.0.0-p643
 
-  NODE_VERSION_NUM: 8
+  NODE_VERSION_NUM: 10.15.3
 
   PYTHON_VERSION_NUM: false
 
