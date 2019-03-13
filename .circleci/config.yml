@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: ruby-2.0.0-p643
 
-  IMAGE_TAG: v1.0.0
+  IMAGE_TAG: latest
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -17,7 +17,7 @@ image_config: &image_config
 
   RUBY_VERSION_NUM: 2.0.0-p643
 
-  NODE_VERSION_NUM: 10.15.3
+  NODE_VERSION_NUM: 10.15.
 
   PYTHON_VERSION_NUM: false
 
@@ -54,7 +54,7 @@ jobs:
 
   test_image:
     docker:
-      - image: $DOCKER_USERNAME/ruby-2.0.0-p643:v1.0.0
+      - image: $DOCKER_USERNAME/ruby-2.0.0-p643:latest
         environment:
           <<: *image_config
 
